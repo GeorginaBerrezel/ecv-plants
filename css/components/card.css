@@ -1,0 +1,42 @@
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 4rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 18rem;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+}
