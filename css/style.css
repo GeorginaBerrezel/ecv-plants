@@ -1,4 +1,4 @@
-@import url(/css/components/index.css);
+@import url(css/components/index.css);
 
 html,
 body {
@@ -81,7 +81,7 @@ ol {
     .location-map {
         display: block;
     }
-    
+
     .flex-section {
         display: block;
     }
